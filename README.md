@@ -1,6 +1,6 @@
 ## @magic-client/uri
 
-typechecking client lib for
+encode objects to uris and decode uri strings to objects
 [@magic](https://magic.github.io/core)
 
 [![NPM version][npm-image]][npm-url]
@@ -54,14 +54,12 @@ in a page/component, just use the LIB.URI functions'),
 
 ##### <a name="usage-encode"></a>encode
 ```javascript
-module.exports = () => iframe({
-  src: LIB.URI.encode({
-    host: 'https://example.com',
-    params: {
-      param_1: true,
-      param_2: 'string',
-    },
-  }),
+LIB.URI.encode({
+  host: 'https://example.com',
+  params: {
+    param_1: true,
+    param_2: 'string',
+  },
 })
 
 // returns
