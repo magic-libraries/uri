@@ -23,6 +23,7 @@
     "url": "https://github.com/magic-client/is/issues"
   },
   "devDependencies": {
+    "@magic-client/json": "github:magic-client/json",
     "@magic-modules/gitbadges": "github:magic-modules/gitbadges",
     "@magic-modules/pre": "github:magic-modules/pre",
     "@magic-themes/docs": "github:magic-themes/docs",
