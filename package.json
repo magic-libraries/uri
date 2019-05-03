@@ -1,7 +1,7 @@
 {
-  "name": "@magic-client/is",
+  "name": "@magic-client/uri",
   "version": "0.0.1",
-  "homepage": "https://magic-client.github.io/is/",
+  "homepage": "https://magic-client.github.io/uri/",
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magic-client/is.git"
+    "url": "git+https://github.com/magic-client/uri.git"
   },
   "bugs": {
-    "url": "https://github.com/magic-client/is/issues"
+    "url": "https://github.com/magic-client/uri/issues"
   },
   "devDependencies": {
     "@magic-client/json": "github:magic-client/json",
@@ -32,13 +32,13 @@
   },
   "author": "Wizards & Witches",
   "license": "AGPL-3.0",
-  "description": "@magic-client/is type checking module. unifies type checking apis.",
+  "description": "@magic-client/uri type checking module. unifies type checking apis.",
   "keywords": [
     "magic",
-    "is",
-    "types",
     "client",
-    "lib"
+    "uri",
+    "encode",
+    "decode"
   ],
   "contributors": [
     {
