@@ -27,7 +27,6 @@ module.exports = {
         const [name, val] = param.split('=')
         res.params[name] = val
       })
-
     }
     return res
   },

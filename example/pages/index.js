@@ -13,7 +13,7 @@ module.exports = () => [
   }),
 
   h3({ id: 'installation' }, 'installation'),
-  Pre.View('npm install --save-exact magic-libraries/uri'),
+  Pre('npm install --save-exact magic-libraries/uri'),
 
   h3({ id: 'require' }, 'require'),
   p('first add the client lib to the app.lib, note that we do not actually require the library.'),
@@ -41,13 +41,15 @@ LIB.URI.encode({
 })`),
 
   p('returns'),
-  p(LIB.URI.encode({
-    host: 'https://example.com',
-    params: {
-      param_1: true,
-      param_2: 'string',
-    },
-  })),
+  p(
+    LIB.URI.encode({
+      host: 'https://example.com',
+      params: {
+        param_1: true,
+        param_2: 'string',
+      },
+    }),
+  ),
 
   h4({ id: 'usage-decode' }, 'decode'),
   Pre(`
@@ -55,12 +57,17 @@ const uri = 'https://example.com/?param_1=true&param_2=string'
 LIB.URI.decode(uri)`),
 
   p('returns'),
-  Pre.View(LIB.JSON.stringify(LIB.URI.decode('https://example.com?param_1=true&param_2=string'), null, 2)),
+  Pre(
+    LIB.JSON.stringify(LIB.URI.decode('https://example.com?param_1=true&param_2=string'), null, 2),
+  ),
 
   h3({ id: 'source' }, 'source'),
   p([
     'the source for this page is in the ',
-    Link({ to: 'https://github.com/magic-libraries/json/tree/master/example' }, 'example directory'),
+    Link(
+      { to: 'https://github.com/magic-libraries/json/tree/master/example' },
+      'example directory',
+    ),
     ' and gets built and published to github using ',
     Link({ to: 'https://github.com/magic/core' }, '@magic/core'),
   ]),

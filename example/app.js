@@ -7,11 +7,14 @@ module.exports = {
     menu: [
       { to: '/#installation', text: 'installation' },
       { to: '/#require', text: 'require' },
-      { to: '/#usage', text: 'usage', items: [
-
-        { to: '/#usage-encode', text: 'URI.encode' },
-        { to: '/#usage-decode', text: 'URI.decode' },
-      ] },
+      {
+        to: '/#usage',
+        text: 'usage',
+        items: [
+          { to: '/#usage-encode', text: 'URI.encode' },
+          { to: '/#usage-decode', text: 'URI.decode' },
+        ],
+      },
       { to: '/#source', text: 'source' },
     ],
   },
