@@ -1,5 +1,5 @@
 module.exports = () => [
-  h2('@magic-client/uri'),
+  h2('@magic-libraries/uri'),
 
   p([
     Link({ to: 'https://magic.github.io/core' }, '@magic'),
@@ -8,12 +8,12 @@ module.exports = () => [
   ]),
 
   GitBadges({
-    project: 'magic-client/uri',
+    project: 'magic-libraries/uri',
     appveyor: 'jaeh/uri',
   }),
 
   h3({ id: 'installation' }, 'installation'),
-  Pre.View('npm install --save-exact magic-client/uri'),
+  Pre.View('npm install --save-exact magic-libraries/uri'),
 
   h3({ id: 'require' }, 'require'),
   p('first add the client lib to the app.lib, note that we do not actually require the library.'),
@@ -23,7 +23,7 @@ module.exports = () => [
 module.exports = {
   //...other app exports
   lib: {
-    URI: '@magic-client/uri',
+    URI: '@magic-libraries/uri',
   },
 }`),
 
@@ -60,7 +60,7 @@ LIB.URI.decode(uri)`),
   h3({ id: 'source' }, 'source'),
   p([
     'the source for this page is in the ',
-    Link({ to: 'https://github.com/magic-client/json/tree/master/example' }, 'example directory'),
+    Link({ to: 'https://github.com/magic-libraries/json/tree/master/example' }, 'example directory'),
     ' and gets built and published to github using ',
     Link({ to: 'https://github.com/magic/core' }, '@magic/core'),
   ]),

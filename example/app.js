@@ -1,7 +1,7 @@
 module.exports = {
   state: {
-    title: '@magic-client/uri',
-    description: '@magic-client/uri encodes objects to uri strings and uri strings to objects.',
+    title: '@magic-libraries/uri',
+    description: '@magic-libraries/uri encodes objects to uri strings and uri strings to objects.',
     logo: '/logo.png',
     logotext: 'uri',
     menu: [
@@ -17,6 +17,6 @@ module.exports = {
   },
   lib: {
     URI: require.resolve('../src'),
-    JSON: require.resolve('@magic-client/json'),
+    JSON: require.resolve('@magic-libraries/json'),
   },
 }

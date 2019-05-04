@@ -1,4 +1,4 @@
-## @magic-client/uri
+## @magic-libraries/uri
 
 encode objects to uris and decode uri strings to objects
 [@magic](https://magic.github.io/core)
@@ -10,18 +10,18 @@ encode objects to uris and decode uri strings to objects
 [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 
-[npm-image]: https://img.shields.io/npm/v/@magic-client/uri.svg
-[npm-url]: https://www.npmjs.com/package/@magic-client/uri
-[travis-image]: https://api.travis-ci.org/magic-client/uri.svg?branch=master
-[travis-url]: https://travis-ci.org/magic-client/uri
-[appveyor-image]: https://img.shields.io/appveyor/ci/magicclient/uri/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/magicclient/uri/branch/master
-[coveralls-image]: https://coveralls.io/repos/github/magic-client/uri/badge.svg
-[coveralls-url]: https://coveralls.io/github/magic-client/uri
-[greenkeeper-image]: https://badges.greenkeeper.io/magic-client/uri.svg
-[greenkeeper-url]: https://badges.greenkeeper.io/magic-client/uri.svg
-[snyk-image]: https://snyk.io/test/github/magic-client/uri/badge.svg
-[snyk-url]: https://snyk.io/test/github/magic-client/uri
+[npm-image]: https://img.shields.io/npm/v/@magic-libraries/uri.svg
+[npm-url]: https://www.npmjs.com/package/@magic-libraries/uri
+[travis-image]: https://api.travis-ci.org/magic-libraries/uri.svg?branch=master
+[travis-url]: https://travis-ci.org/magic-libraries/uri
+[appveyor-image]: https://img.shields.io/appveyor/ci/magiclibraries/uri/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magiclibraries/uri/branch/master
+[coveralls-image]: https://coveralls.io/repos/github/magic-libraries/uri/badge.svg
+[coveralls-url]: https://coveralls.io/github/magic-libraries/uri
+[greenkeeper-image]: https://badges.greenkeeper.io/magic-libraries/uri.svg
+[greenkeeper-url]: https://badges.greenkeeper.io/magic-libraries/uri.svg
+[snyk-image]: https://snyk.io/test/github/magic-libraries/uri/badge.svg
+[snyk-url]: https://snyk.io/test/github/magic-libraries/uri
 
 * [installation](#install)
 * [require](#require)
@@ -32,7 +32,7 @@ encode objects to uris and decode uri strings to objects
 
 #### <a name="install"></a>installation
 ```bash
-npm install --save-exact magic-client/uri
+npm install --save-exact magic-libraries/uri
 ```
 
 #### <a name="require"></a>require
@@ -43,7 +43,7 @@ first add the client lib to the app.lib, note that we do not actually require th
 module.exports = {
   //...other app exports
   lib: {
-    URI: '@magic-client/uri',
+    URI: '@magic-libraries/uri',
   },
 }
 ```
