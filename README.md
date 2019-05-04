@@ -14,8 +14,8 @@ encode objects to uris and decode uri strings to objects
 [npm-url]: https://www.npmjs.com/package/@magic-client/uri
 [travis-image]: https://api.travis-ci.org/magic-client/uri.svg?branch=master
 [travis-url]: https://travis-ci.org/magic-client/uri
-[appveyor-image]: https://img.shields.io/appveyor/ci/jaeh/uri/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/jaeh/uri/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/magicclient/uri/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magicclient/uri/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-client/uri/badge.svg
 [coveralls-url]: https://coveralls.io/github/magic-client/uri
 [greenkeeper-image]: https://badges.greenkeeper.io/magic-client/uri.svg
