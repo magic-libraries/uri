@@ -7,10 +7,7 @@ module.exports = () => [
     ' encode objects to uris and decode uri strings to objects',
   ]),
 
-  GitBadges({
-    project: 'magic-libraries/uri',
-    appveyor: 'jaeh/uri',
-  }),
+  GitBadges('magic-libraries/uri'),
 
   h3({ id: 'installation' }, 'installation'),
   Pre('npm install --save-exact magic-libraries/uri'),
