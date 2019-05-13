@@ -5,7 +5,7 @@
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
-    "test": "t --exclude docs example config.js",
+    "test": "t --exclude docsrc docs config.js",
     "build": "NODE_ENV=production magic build",
     "prod": "NODE_ENV=production magic build serve",
     "dev": "magic dev --watch src",
@@ -28,7 +28,7 @@
     "@magic-modules/pre": "github:magic-modules/pre",
     "@magic-themes/docs": "github:magic-themes/docs",
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.12"
+    "@magic/test": "github:magic/test#mjs"
   },
   "author": "Wizards & Witches",
   "license": "AGPL-3.0",

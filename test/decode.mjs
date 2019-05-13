@@ -1,10 +1,10 @@
-const { is } = require('@magic/test')
-const { decode } = require('../src')
+import { is } from '@magic/test'
+import { decode } from '../src/index.mjs'
 
 const decodeString = 'testing?param_1=one&param_2=two'
 const expect = { host: 'testing', params: { param_1: 'one', param_2: 'two' } }
 
-module.exports = [
+export default [
   {
     fn: () => decode(),
     expect: is.object,
