@@ -5,6 +5,9 @@
   "license": "AGPL-3.0",
   "description": "@magic-libraries/uri type checking module. unifies type checking apis.",
   "homepage": "https://magic-libraries.github.io/uri/",
+  "engines": {
+    "node": ">=12.2.0"
+  },
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
