@@ -1,4 +1,4 @@
-module.exports = () => [
+export const View = () => [
   h2('@magic-libraries/uri'),
 
   p([
@@ -20,16 +20,16 @@ module.exports = () => [
 module.exports = {
   //...other app exports
   lib: {
-    URI: '@magic-libraries/uri',
+    uri: '@magic-libraries/uri',
   },
 }`),
 
   h3({ id: 'usage' }, 'usage'),
-  p('in a page/component, just use the LIB.URI functions'),
+  p('in a page/component, just use the lib.uri functions'),
 
   h4({ id: 'usage-encode' }, 'encode'),
   Pre(`
-LIB.URI.encode({
+lib.uri.encode({
   host: 'https://example.com',
   params: {
     param_1: true,
@@ -39,7 +39,7 @@ LIB.URI.encode({
 
   p('returns'),
   p(
-    LIB.URI.encode({
+    lib.uri.encode({
       host: 'https://example.com',
       params: {
         param_1: true,
@@ -51,11 +51,11 @@ LIB.URI.encode({
   h4({ id: 'usage-decode' }, 'decode'),
   Pre(`
 const uri = 'https://example.com/?param_1=true&param_2=string'
-LIB.URI.decode(uri)`),
+lib.uri.decode(uri)`),
 
   p('returns'),
   Pre(
-    LIB.JSON.stringify(LIB.URI.decode('https://example.com?param_1=true&param_2=string'), null, 2),
+    lib.json.stringify(lib.uri.decode('https://example.com?param_1=true&param_2=string'), null, 2),
   ),
 
   h3({ id: 'source' }, 'source'),

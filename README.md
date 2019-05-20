@@ -1,6 +1,9 @@
 ## @magic-libraries/uri
 
 encode objects to uris and decode uri strings to objects
+
+[html-docs](https://magic-libraries.github.io/uri)
+
 [@magic](https://magic.github.io/core)
 
 [![NPM version][npm-image]][npm-url]
@@ -24,7 +27,6 @@ encode objects to uris and decode uri strings to objects
 [snyk-url]: https://snyk.io/test/github/magic-libraries/uri
 
 * [installation](#install)
-* [require](#require)
 * [usage](#usage)
 * [encode](#usage-encode)
 * [decode](#usage-decode)
@@ -35,26 +37,13 @@ encode objects to uris and decode uri strings to objects
 npm install --save-exact magic-libraries/uri
 ```
 
-#### <a name="require"></a>require
-first add the client lib to the app.lib, note that we do not actually require the library.
-
-```javascript
-// /app.js
-module.exports = {
-  //...other app exports
-  lib: {
-    URI: '@magic-libraries/uri',
-  },
-}
-```
-
 #### <a name="usage"></a>usage
-in a page/component, just use the LIB.URI functions'),
+in a page/component, just use the lib.< functions'),
 
 
 ##### <a name="usage-encode"></a>encode
 ```javascript
-LIB.URI.encode({
+lib.uri.encode({
   host: 'https://example.com',
   params: {
     param_1: true,
@@ -68,7 +57,7 @@ LIB.URI.encode({
 
 ##### <a name="usage-decode"></a>decode
 ```javascript
-LIB.URI.decode('https://example.com?param_1=true&param_2=string')
+lib.uri.decode('https://example.com?param_1=true&param_2=string')
 
 // returns
 {

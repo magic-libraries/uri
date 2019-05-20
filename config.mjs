@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   ROOT: 'example',
   WEB_ROOT: '/uri/',
   PUBLIC: 'docs',
