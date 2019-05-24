@@ -12,18 +12,6 @@ export const View = () => [
   h3({ id: 'installation' }, 'installation'),
   Pre('npm install --save-exact magic-libraries/uri'),
 
-  h3({ id: 'require' }, 'require'),
-  p('first add the client lib to the app.lib, note that we do not actually require the library.'),
-
-  Pre(`
-// /app.js
-module.exports = {
-  //...other app exports
-  lib: {
-    uri: '@magic-libraries/uri',
-  },
-}`),
-
   h3({ id: 'usage' }, 'usage'),
   p('in a page/component, just use the lib.uri functions'),
 
