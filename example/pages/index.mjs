@@ -1,4 +1,4 @@
-export const View = () => [
+export const View = state => [
   h2('@magic-libraries/uri'),
 
   p([
@@ -56,4 +56,6 @@ lib.uri.decode(uri)`),
     ' and gets built and published to github using ',
     Link({ to: 'https://github.com/magic/core' }, '@magic/core'),
   ]),
+
+  LightSwitch(state),
 ]

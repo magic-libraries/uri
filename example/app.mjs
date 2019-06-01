@@ -1,8 +1,7 @@
 export const state = {
   title: '@magic-libraries/uri',
   description: '@magic-libraries/uri encodes objects to uri strings and uri strings to objects.',
-  logo: '/logo.png',
-  logotext: 'uri',
+  logotext: '@magic-libraries/uri',
   menu: [
     { to: '/#installation', text: 'installation' },
     {
