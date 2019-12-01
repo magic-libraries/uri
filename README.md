@@ -15,8 +15,8 @@ encode objects to uris and decode uri strings to objects
 
 [npm-image]: https://img.shields.io/npm/v/@magic-libraries/uri.svg
 [npm-url]: https://www.npmjs.com/package/@magic-libraries/uri
-[travis-image]: https://api.travis-ci.org/magic-libraries/uri.svg?branch=master
-[travis-url]: https://travis-ci.org/magic-libraries/uri
+[travis-image]: https://img.shields.io/travis/com/magic-libraries/uri/master
+[travis-url]: https://travis-ci.com/magic-libraries/uri
 [appveyor-image]: https://img.shields.io/appveyor/ci/magiclibraries/uri/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magiclibraries/uri/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-libraries/uri/badge.svg
