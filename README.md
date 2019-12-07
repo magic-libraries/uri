@@ -34,7 +34,7 @@ encode objects to uris and decode uri strings to objects
 
 #### <a name="install"></a>installation
 ```bash
-npm install --save-exact magic-libraries/uri
+npm install --save-exact @magic-libraries/uri
 ```
 
 #### <a name="usage"></a>usage
