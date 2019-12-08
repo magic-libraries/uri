@@ -44,9 +44,11 @@
   "keywords": [
     "magic",
     "client",
+    "browser",
+    "magic-libraries",
     "uri",
-    "encode",
-    "decode"
+    "url",
+    "hyperapp"
   ],
   "contributors": [
     {
