@@ -38,8 +38,7 @@ npm install --save-exact @magic-libraries/uri
 ```
 
 #### <a name="usage"></a>usage
-in a page/component, just use the lib.< functions'),
-
+in a page/component, just use the lib.uri functions'),
 
 ##### <a name="usage-encode"></a>encode
 ```javascript

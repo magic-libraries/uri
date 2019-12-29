@@ -50,7 +50,7 @@ lib.uri.decode(uri)`),
   p([
     'the source for this page is in the ',
     Link(
-      { to: 'https://github.com/magic-libraries/json/tree/master/example' },
+      { to: 'https://github.com/magic-libraries/uri/tree/master/example' },
       'example directory',
     ),
     ' and gets built and published to github using ',
