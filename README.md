@@ -68,3 +68,13 @@ lib.uri.decode('https://example.com?param_1=true&param_2=string')
 }
 ```
 
+#### changelog
+
+##### 0.0.1
+first release
+
+##### 0.0.2
+require node 13.5.0
+
+##### 0.0.3 - unreleased
+...
