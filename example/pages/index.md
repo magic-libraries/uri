@@ -1,21 +1,22 @@
-# ${state.title}
+# ${title}
 
-[@magic](https://magic.github.io/core)-client library:
+[@magic](https://magic.github.io/core)-client library.
+
 ${state.description}
 
-<GitBadges>magic-libraries/uri</GitBadges>
+<GitBadges>@magic-libraries/uri</GitBadges>
 
-<h3 id="installation">installation</h3>
+### installation
 
-<Pre>npm install --save-exact @magic-libraries/uri</Pre>
+`npm install --save-exact @magic-libraries/uri`
 
-<h3 id="usage">usage</h3>
+### usage
 
 in a page/component, just use the lib.uri functions
 
-<h4 id="usage-encode">encode</h4>
+#### #usage- encode
 
-<Pre>
+```
 lib.uri.encode({
   host: 'https://example.com',
   params: {
@@ -23,18 +24,18 @@ lib.uri.encode({
     param_2: 'string',
   },
 })
-</Pre>
+```
 
 returns
 
 https://example.com?param_1=true&param_2=string
 
-<h4 id="usage-decode">decode</h4>
+#### #usage- decode
 
-<Pre>
+```
 const uri = 'https://example.com/?param_1=true&param_2=string'
 lib.uri.decode(uri)
-</Pre>
+```
 
 returns
 
@@ -47,6 +48,8 @@ returns
   },
 }
 </Pre>
+
+### source
 
 the source for this page is in the
 [example directory](https://github.com/magic-libraries/uri/tree/master/example)
