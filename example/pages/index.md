@@ -2,7 +2,7 @@
 
 [@magic](https://magic.github.io/core)-client library.
 
-${state.description}
+${description}
 
 <GitBadges>@magic-libraries/uri</GitBadges>
 
@@ -39,7 +39,7 @@ lib.uri.decode(uri)
 
 returns
 
-<Pre>
+```
 {
   host: 'https://example.com',
   params: {
@@ -47,7 +47,7 @@ returns
     param_2: 'string',
   },
 }
-</Pre>
+```
 
 ### source
 
