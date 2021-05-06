@@ -9,8 +9,8 @@ export const state = {
       to: '/#usage',
       text: 'usage',
       items: [
-        { to: '/#usage-encode', text: 'uri.encode' },
-        { to: '/#usage-decode', text: 'uri.decode' },
+        { to: '-encode', text: 'uri.encode' },
+        { to: '-decode', text: 'uri.decode' },
       ],
     },
     { to: '/#source', text: 'source' },

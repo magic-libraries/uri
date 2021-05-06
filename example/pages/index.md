@@ -1,6 +1,6 @@
 # ${title}
 
-[@magic](https://magic.github.io/core)-client library.
+[@magic](https://magic.github.io/core/)-client library.
 
 ${description}
 
@@ -54,4 +54,4 @@ returns
 the source for this page is in the
 [example directory](https://github.com/magic-libraries/uri/tree/master/example)
 and gets built and published to github using
-[@magic/core](https://github.com/magic/core)
+[@magic/core](https://github.com/magic/core/)
